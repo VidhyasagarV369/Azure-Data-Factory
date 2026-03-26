@@ -1,0 +1,153 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevecomproject01"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"DS_MUL_Transfer_accountKey": {
+			"value": ""
+		},
+		"DS_PARQUETREST_accountKey": {
+			"value": ""
+		},
+		"LSBLOBCSV_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_EXCEL_connectionString": {
+			"value": ""
+		},
+		"LS_CPYFiles_accountKey": {
+			"value": ""
+		},
+		"LS_CSV2_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_CopySP_password": {
+			"value": ""
+		},
+		"LS_GetFiles_accountKey": {
+			"value": ""
+		},
+		"LS_ONP_SQL_CSV_password": {
+			"value": ""
+		},
+		"LS_OP_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_CSV_password": {
+			"value": ""
+		},
+		"LS_SQL_MIG_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
+		},
+		"DS_MUL_Transfer_properties_typeProperties_url": {
+			"value": "https://adlsdevdummy.dfs.core.windows.net/"
+		},
+		"DS_PARQUETREST_properties_typeProperties_url": {
+			"value": "https://dsrestadlsparquet.dfs.core.windows.net"
+		},
+		"LS_ADLS_CSV_properties_typeProperties_url": {
+			"value": "https://adlscsvonpremtocsv.dfs.core.windows.net"
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevecomus.dfs.core.windows.net"
+		},
+		"LS_CPYFiles_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV2_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsmultifiletransfer.dfs.core.windows.net"
+		},
+		"LS_CSV_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevdummy.dfs.core.windows.net"
+		},
+		"LS_CopySP_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_CopySP_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_CopySP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_GetFiles_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
+		},
+		"LS_ONP_SQL_CSV_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_ONP_SQL_CSV_properties_typeProperties_database": {
+			"value": "AdventureWorks2019"
+		},
+		"LS_ONP_SQL_CSV_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_OP_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_CSV_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_SQL_CSV_properties_typeProperties_database": {
+			"value": "AdventureWorks2019"
+		},
+		"LS_SQL_CSV_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_MIG_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_SQL_MIG_properties_typeProperties_database": {
+			"value": "AdventureWorks2019"
+		},
+		"LS_SQL_MIG_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
