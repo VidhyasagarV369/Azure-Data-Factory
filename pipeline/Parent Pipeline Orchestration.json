@@ -30,6 +30,25 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "ForEach_SQL_Table",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "LKUP_SQLTBL_WATERMARK_DW",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('LKUP_SQLTBL_WATERMARK_DW').output.value",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"annotations": []
