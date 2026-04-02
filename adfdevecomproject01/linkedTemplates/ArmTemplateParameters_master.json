@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adfdevecomproject01"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
@@ -14,10 +17,16 @@
 		"AzureDataLakeStorage3_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
 		"DS_MUL_Transfer_accountKey": {
 			"value": ""
 		},
 		"DS_PARQUETREST_accountKey": {
+			"value": ""
+		},
+		"Dum_accountKey": {
 			"value": ""
 		},
 		"LSBLOBCSV_connectionString": {
@@ -47,6 +56,9 @@
 		"LS_GetFiles_accountKey": {
 			"value": ""
 		},
+		"LS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
 		"LS_ONP_SQL_CSV_password": {
 			"value": ""
 		},
@@ -56,10 +68,16 @@
 		"LS_SQLSERVER_password": {
 			"value": ""
 		},
+		"LS_SQLSERVER_TBLLKUP_password": {
+			"value": ""
+		},
 		"LS_SQL_CSV_password": {
 			"value": ""
 		},
 		"LS_SQL_MIG_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
@@ -71,11 +89,17 @@
 		"AzureDataLakeStorage3_properties_typeProperties_url": {
 			"value": "https://azureblobbulkload.dfs.core.windows.net/"
 		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlssqlonpremdatamig.dfs.core.windows.net/"
+		},
 		"DS_MUL_Transfer_properties_typeProperties_url": {
 			"value": "https://adlsdevdummy.dfs.core.windows.net/"
 		},
 		"DS_PARQUETREST_properties_typeProperties_url": {
 			"value": "https://dsrestadlsparquet.dfs.core.windows.net"
+		},
+		"Dum_properties_typeProperties_url": {
+			"value": "https://azureblobbulkload.dfs.core.windows.net/"
 		},
 		"LS_ADLS_CSV_properties_typeProperties_url": {
 			"value": "https://adlscsvonpremtocsv.dfs.core.windows.net"
@@ -104,6 +128,15 @@
 		"LS_GetFiles_properties_typeProperties_url": {
 			"value": "https://azureblobbulkload.dfs.core.windows.net/"
 		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
 		"LS_ONP_SQL_CSV_properties_typeProperties_server": {
 			"value": "LAPTOP-ADQ6USVA"
 		},
@@ -125,6 +158,15 @@
 		"LS_SQLSERVER_properties_typeProperties_userName": {
 			"value": "sa"
 		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
 		"LS_SQL_CSV_properties_typeProperties_server": {
 			"value": "LAPTOP-ADQ6USVA"
 		},
@@ -141,6 +183,15 @@
 			"value": "AdventureWorks2019"
 		},
 		"LS_SQL_MIG_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-ADQ6USVA"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
 			"value": "sa"
 		},
 		"containerUri": {
